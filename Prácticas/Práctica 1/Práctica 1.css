@@ -1,0 +1,158 @@
+*{box-sizing: border-box}
+body{
+    background-color:#FBCDFF;
+    padding:2% 3%;
+}
+/*Estilos del menú*/
+.menú{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    font-size: 20px; 
+    }
+.caja1{
+    background-color: #8CFFEC ;
+    width: 100px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+/*Termina estilos de menú*/
+.título{
+    font-family: Lobster;
+    font-size: 40px;
+    position: relative;
+    left: 30%;
+    margin:0 0 30 ;
+    font-weight: bold;
+    font-style: italic;
+    }
+span{
+    position: absolute;
+    bottom:0;
+    right:10;
+    font-family: lobster
+} /*Firma*/
+/*Primer poema*/
+.poema1{
+    background: url(https://www.todopaisajes.com/Imagenes/noche-lunar.jpg);
+    background-size:cover;
+    background-position: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    height:1100px;
+    padding-top: 8%;
+    padding-bottom: 3%
+               }
+.fondo1{
+    position: absolute;
+    background-color:rgba(225,225,225,0.5);
+    width:70%;
+    border-radius: 20px;
+    padding-left: 5%;
+    padding-top: 3%;
+    left: 15%
+}
+/*Segundo poema*/
+.poema2{
+    background: url(Pocket-watch-sands_1920x1200.jpg);
+    background-size:cover;
+    background-position: center;
+    border-radius:30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 500px;
+    padding-top:8%;
+    padding-bottom: 3%;
+    margin-bottom: 20px;
+    }
+.fondo2{
+    background-color:rgba(225,225,225,0.5);
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding-left: 5%;
+    padding-top: 3%;
+    position: absolute;
+    left: 15%
+    
+        }
+/*Tercer poema*/
+.poema3{
+    background: url(https://a-static.besthdwallpaper.com/nina-que-mira-las-flores-del-tulipan-papel-pintado-1920x1080-14467_48.jpg);
+    background-size:cover;
+    background-position: center;
+    border-radius:30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 400px;
+    padding-top: 10%;
+    margin-bottom: 20px
+        }
+.fondo3{
+    background-color:rgba(225,225,225,0.5);
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding-left: 5%;
+    padding-top:0;
+    position: absolute;
+    left:15%
+}
+/*Enlaces a poemas*/
+ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-left: 0px
+}
+.navegación a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color:black;
+    font-weight: bold;
+    line-height: 2
+}
+
+   @media screen and (min-width:800px){
+    .poema1{
+        height: 1050px;
+       }
+    .poema2{
+        height: 550px;
+        }
+    .poema3{
+        height: 550px}
+    p, h1{position: relative;
+        left: 20%
+    }
+}/*Fondos más grandes y el texto se centra*/
+@media screen and (min-width:1200px){
+   .contenedor,.contenedor2{height: 1100px;
+        width: 49%;
+        float:left}
+    .contenedor{margin-right: 2%}
+    .poema2,.poema3{
+        height: 515px;
+    }
+    .poema1,.poema2,.poema3{
+        position: relative
+    }
+    .poema1 p,.poema1 h1,.poema2 p,.poema2 h1,.poema3 p,.poema3 h1{left:5%}
+    .navegación{
+        float: left;
+        width: 100%}
+    }/*El primer poema se posiciona a la izquierda, el segundo y el tercero a la derecha*/
+@media screen and (min-width:1500px){
+    .contenedor1,.contenedor2{height: 1350px}
+    .poema1{height: 1350px}
+    .poema2,.poema3{height: 665px}
+    p{font-size:20}
+    
+}/*Letra más grande*/
